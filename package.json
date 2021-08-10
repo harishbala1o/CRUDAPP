@@ -1,0 +1,27 @@
+{
+  "name": "basiccrudapi",
+  "version": "1.0.0",
+  "description": "This is an app for creating simple crud api in node, express and mongodb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "crud",
+    "api",
+    "json"
+  ],
+  "author": "Harish",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.6",
+    "nodemon": "^2.0.12"
+  }
+}
